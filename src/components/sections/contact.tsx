@@ -57,7 +57,7 @@ export function Contact() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
             <div className="text-bat/80">$ ./download --asset=resume.pdf</div>
             <a
-              href="/MS.ASFAAN_RESUME.pdf"
+              href="/MOHAMED SATHAK ASFAAN_ RESUME.pdf"
               download
               className="inline-flex items-center gap-2 rounded bg-bat px-5 py-2.5 text-sm font-semibold text-black hover:opacity-90 glow-bat-sm"
             >

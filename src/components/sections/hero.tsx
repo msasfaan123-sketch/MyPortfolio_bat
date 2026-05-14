@@ -82,7 +82,7 @@ export function Hero() {
           <BatIcon className="h-5 w-5 text-bat" /> Open Batcomputer
         </button>
         <a
-          href="/MS.ASFAAN_RESUME.pdf" download
+          href="/MOHAMED SATHAK ASFAAN_ RESUME.pdf" download
           className="inline-flex items-center gap-2 rounded border border-bat/20 px-5 py-3 text-sm font-semibold text-foreground/80 hover:border-bat hover:text-bat"
         >
           <Download className="h-4 w-4" /> Resume
