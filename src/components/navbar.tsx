@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { BatIcon } from "./bat-icon";
 
@@ -26,12 +25,12 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-        <Link to="/" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <BatIcon className="h-7 w-7 text-bat" />
           <span className="font-mono text-xs uppercase tracking-[0.25em] text-bat">
             M.S. Asfaan
           </span>
-        </Link>
+        </a>
         <nav className="hidden items-center gap-7 md:flex">
           {links.map((l) => (
             <a
