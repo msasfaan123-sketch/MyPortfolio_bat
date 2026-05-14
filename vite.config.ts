@@ -10,7 +10,4 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // TanStack Start server entry: src/server.ts (SSR error wrapper around @tanstack/react-start/server-entry).
 export default defineConfig({
   cloudflare: false,
-  tanstackStart: {
-    server: { entry: "server" },
-  },
 });
